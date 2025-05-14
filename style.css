@@ -8,3 +8,11 @@
   display: flex;
   justify-content: center;
 }
+
+#text-box {
+  width: 500px;
+}
+
+#submit-btn {
+  width: 50px;
+}
