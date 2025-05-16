@@ -21,4 +21,8 @@ submitBtn.addEventListener("click", () => {
   listItem.appendChild(deleteBtn);
   
   list.appendChild(listItem);
+
+  deleteBtn.addEventListener("click", () => {
+    list.removeChild(listItem);
+  });
 });
