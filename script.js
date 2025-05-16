@@ -1,9 +1,9 @@
-const text = document.querySelector("#text-box");
+const textBox = document.querySelector("#text-box");
 const submitBtn = document.querySelector("#submit-btn");
 
 submitBtn.addEventListener("click", () => {
-  const inputText = text.value;
-  text.value = "";
+  const inputText = textBox.value;
+  textBox.value = "";
 
   const list = document.querySelector("ul");
   const listItem = document.createElement("li");
