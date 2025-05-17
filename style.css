@@ -9,6 +9,10 @@ body {
   justify-content: center;
 }
 
+ul {
+  list-style-type: none;
+}
+
 #container {
   display: flex;
   flex-direction: column;
