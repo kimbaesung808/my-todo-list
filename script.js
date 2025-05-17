@@ -17,6 +17,7 @@ function addTask() {
 
   const checkbox = document.createElement("input");
   checkbox.setAttribute("type", "checkbox");
+  checkbox.style.marginRight = "10px";
   listItem.appendChild(checkbox);
 
   const span = document.createElement("span");
