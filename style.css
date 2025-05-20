@@ -16,12 +16,12 @@ ul {
 #container {
   display: flex;
   flex-direction: column;
+  width: 500px;
 }
 
 #submit {
   display: flex;
   justify-content: center;
-  width: 500px;
 }
 
 #text-box {
