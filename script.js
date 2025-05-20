@@ -14,6 +14,7 @@ function addTask() {
 
   const list = document.querySelector("ul");
   const listItem = document.createElement("li");
+  listItem.style.display = "flex";
 
   const checkbox = document.createElement("input");
   checkbox.setAttribute("type", "checkbox");
@@ -26,6 +27,7 @@ function addTask() {
 
   const deleteBtn = document.createElement("button");
   deleteBtn.textContent = "Delete";
+  deleteBtn.style.marginLeft = "auto";
   listItem.appendChild(deleteBtn);
   
   list.appendChild(listItem);
