@@ -30,6 +30,7 @@ li {
 #submit {
   display: flex;
   justify-content: center;
+  margin: 50px 0 0;
 }
 
 #text-box {
